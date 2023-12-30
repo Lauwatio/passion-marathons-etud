@@ -3,11 +3,7 @@
   <head>
     <title>Auteurs du site</title>
     <meta charset="utf-8" />
-    <link
-      rel="stylesheet"
-      href="./../assets/css/auteurs.css"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="./../assets/css/auteurs.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
@@ -22,52 +18,51 @@
 
   <body>
     <main>
-      
       <div id="laura">
-      
         <div>
-          <a href="./../pages/auteurs/lauwa.html"><h2>Lauwa</h2></a>
+          <a href="./../pages/auteurs/lauwa.html"><h2>Laura</h2></a>
           <div class="list-icons">
-            <a href="https://instagram.com/lauwa_chrstms/"><i class="fa-brands fa-instagram"></i></a>
-          
+            <a href="https://instagram.com/lauwa_chrstms/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
 
             <textarea id="textArea">po_de_poulet</textarea>
-            <button onclick="copyToClipBoard()"><i id="lauwadisc" class="fa-brands fa-discord"></i></button>
-
-            
-            <script>
-                function copyToClipBoard() {
-                var content = document.getElementById('textArea');
-
-               content.select();
-               document.execCommand('copy');
-
-                alert('Copied!');
-                }
-            </script>
-            
-            <textarea id="textArea">laura.noel307@gmail.com</textarea>
-            <button onclick="copyToClipBoard()"><i id="lauwam" class="fa-regular fa-envelope"></i></button>
+            <button onclick="copyToClipBoard()">
+              <i id="lauwadisc" class="fa-brands fa-discord"></i>
+            </button>
 
             <script>
               function copyToClipBoard() {
-              var content = document.getElementById('textArea');
+                var content = document.getElementById("textArea");
 
-              content.select();
-               document.execCommand('copy');
+                content.select();
+                document.execCommand("copy");
 
-                }
+                alert("Copied!");
+              }
             </script>
-            
+
+            <textarea id="textArea">laura.noel307@gmail.com</textarea>
+            <button onclick="copyToClipBoard()">
+              <i id="lauwam" class="fa-regular fa-envelope"></i>
+            </button>
+
+            <script>
+              function copyToClipBoard() {
+                var content = document.getElementById("textArea");
+
+                content.select();
+                document.execCommand("copy");
+              }
+            </script>
           </div>
           <p id="lauwamail">laura.noel307@gmail.com</p>
           <p id="lauwadiscord">po_de_poulet</p>
-
         </div>
       </div>
       <div id="quentin">
         <div>
-          <h2> <a href="./../pages/auteurs/quentin.html">Quentin</a></h2>
+          <h2><a href="./../pages/auteurs/quentin.html">Quentin</a></h2>
           <div class="list-icons">
             <a href="https://www.instagram.com/hejtoart/"
               ><i class="fa-brands fa-instagram"></i
@@ -78,16 +73,15 @@
             ></a>
           </div>
         </div>
-        
       </div>
       <div id="divhome">
         <div>
-          <a id="home" href="./../index.php"><i class="fa-solid fa-house"></i></a>
+          <a id="home" href="./../index.php"
+            ><i class="fa-solid fa-house"></i
+          ></a>
         </div>
       </div>
     </main>
     <script src="./../assets/js/auteurs.js"></script>
-    
   </body>
-  
 </html>

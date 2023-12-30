@@ -1,168 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-*
-{	box-sizing:border-box;
-	margin:0px;
-    font-family: 'Oswald', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
 }
-html
-{	
-	font-weight: normal;
-	font-style: normal;
-	font-size: 16px;
-	color : rgb(140, 145, 155);
-	letter-spacing: 3.6px;
-	font-weight:400;
-    height: 100%;
+html {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(140, 145, 155);
+  letter-spacing: 3.6px;
+  font-weight: 400;
+  height: 100%;
 }
-a
-{	
-    text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 main {
-    display: flex;
+  display: flex;
 }
 
-#laura, #quentin {
-    height: 100vh;
-    width: 50%;
-    display: flex;
+#laura,
+#quentin {
+  height: 100vh;
+  width: 50%;
+  display: flex;
 }
 
-/*MOI*/
-#laura
-{
-    text-align: center;
-    background:url(./../images/auteurs/pokemonn.jpg) top/cover;
-    justify-content: center;
-    text-transform: uppercase;
-    align-items: start;
-    font-size: 50px;
-    transform: scaleX(-1);
-    text-shadow: -5px 0 5px red;
+/*LAURA*/
+#laura {
+  text-align: center;
+  background: url(./../images/auteurs/pokemonn.jpg) top/cover;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: start;
+  font-size: 50px;
+  transform: scaleX(-1);
+  text-shadow: -5px 0 5px rgb(245, 20, 12);
 }
-#laura > div, #quentin > div
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50%;
+#laura > div,
+#quentin > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
 }
 
 #laura > div {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-#textArea
-{
-    display: none;
+#textArea {
+  display: none;
 }
-#laura button
-{
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
+#laura button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }
-#laura button i
-{
-    font-size: 7vh;
-    text-shadow: -5px 0 5px red;
+#laura button i {
+  font-size: 7vh;
+  text-shadow: -5px 0 5px rgb(245, 20, 12);
 }
-#lauwamail, #lauwadiscord
-{
-    font-size: 2vh;
-    display: none;
-    text-transform: lowercase;
+#lauwamail,
+#lauwadiscord {
+  font-size: 2vh;
+  display: none;
+  text-transform: lowercase;
 }
-#laura a
-{
-    padding-left: 10px;
-    font-size: 7vh;
+#laura a {
+  padding-left: 10px;
+  font-size: 7vh;
 }
-#laura a, #laura button i, #laura
-{
-    color: whitesmoke;
+#laura a,
+#laura button i,
+#laura {
+  color: whitesmoke;
 }
 
-/*TOI*/
+/*QUENTIN*/
 #quentin {
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
-    justify-content: center;
-    align-items: end;
-    background: url(./../images/auteurs/Coldwaterman.jpg) right/cover;
-    text-shadow: 5px 0 5px greenyellow;
-  }
-  
-  .list-icons {
-    height: min-content;
-    font-size: 7vh;
-  }
-  #quentin a {
-    color: white;
-  }
-  body {
-    height: 100%;
-  }
-  header {
-    height: 100%;
-  }
-  div:first-child > img {
-    width: 100%;
-    height: auto;
-  }
-  /*BIO LAUWA*/
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: end;
+  background: url(./../images/auteurs/Coldwaterman\ full.jpg) right/cover;
+  text-shadow: 5px 0 5px rgb(15, 197, 127);
+}
 
-  #bio > div, #illu > div
-  {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 50%;
-  }
-  #bio, #illu {
-    height: 100vh;
-    width: 50%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: start;
-    font-size: 5vh;
-    flex-direction: column;
+.list-icons {
+  height: min-content;
+  font-size: 7vh;
 }
-#illu1, #illu2, #illu3
-{
-    height: 1/3%;
-    width: 100%;
+#quentin a {
+  color: white;
 }
-#texte
-{
-    font-size: 4vh;
-    padding: 10vh;
+body {
+  height: 100%;
 }
-#illu1
-{
-    background: url(./../images/auteurs/ffollet.png) top/cover;
+header {
+  height: 100%;
 }
-#illu2
-{
-    background: url(./../images/auteurs/Kirby.png) center/cover;
+div:first-child > img {
+  width: 100%;
+  height: auto;
 }
-#illu3
-{
-    background: url(./../images/auteurs/brun.png) center/cover;
+/*BIO LAURA*/
+
+#bio > div,
+#illu > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
 }
-#home
-{
-    color: whitesmoke;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 5vh;
+#bio,
+#illu {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: start;
+  font-size: 5vh;
+  flex-direction: column;
 }
-#divhome
-{
-    position: fixed;
-	bottom: 5%;
-	right: 48%;
-    text-align: center;
+#illu1,
+#illu2,
+#illu3,
+#illu1Q,
+#illu2Q,
+#illu3Q {
+  height: 1/3%;
+  width: 100%;
+}
+#texte {
+  font-size: 4vh;
+  padding: 10vh;
+}
+#illu1 {
+  background: url(./../images/auteurs/ffollet.png) top/cover;
+}
+#illu2 {
+  background: url(./../images/auteurs/Kirby.png) center/cover;
+}
+#illu3 {
+  background: url(./../images/auteurs/brun.png) center/cover;
+}
+#illu1Q {
+  background: url(./../images/auteurs/woodman.jpg) center/cover;
+}
+#illu2Q {
+  background: url(./../images/auteurs/Coldwaterman.jpg) center/cover;
+}
+#illu3Q {
+  background: url(./../images/auteurs/Agorthes\ 2\ colo.jpg) center/cover;
+}
+/*Bouton HOME*/
+#home {
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 5vh;
+  text-shadow: 0px 0 10px rgb(214, 176, 8);
+}
+#divhome {
+  position: fixed;
+  bottom: 5%;
+  right: 48%;
+  text-align: center;
 }
