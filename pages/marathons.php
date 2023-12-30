@@ -26,7 +26,7 @@
 			</a>
 			<a href="./alimentation.html">
 				<img src="./../assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon">
-				conseils
+				Conseils
 			</a>
 			<a href="#">
 				<img src="./../assets/images/menu/tems.svg" alt="Témoignages de marathoniens">

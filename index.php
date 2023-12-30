@@ -27,7 +27,7 @@
 
       <a href="./pages/alimentation.html">
         <img src="./assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon" />
-        conseils
+        Conseils
       </a>
 
       <a href="#">
@@ -71,7 +71,7 @@
               <img src="./assets/images/home/articles/cognac.jpg" alt="Marathon de Cognac" />
             </div>
             <figcaption>
-              <h2>le marathon de cognac</h2>
+              <h2>Le marathon de cognac</h2>
               <p>Course - France - Nouvelle aquitaine</p>
             </figcaption>
           </figure>

@@ -16,7 +16,16 @@ html {
 a {
   text-decoration: none;
 }
-
+.retourA {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  display: inline-block;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 main {
   display: flex;
 }
@@ -62,7 +71,8 @@ main {
   text-shadow: -5px 0 5px rgb(245, 20, 12);
 }
 #lauwamail,
-#lauwadiscord {
+#lauwadiscord,
+#quentinmail {
   font-size: 2vh;
   display: none;
   text-transform: lowercase;
@@ -157,7 +167,9 @@ div:first-child > img {
 #illu3Q {
   background: url(./../images/auteurs/Agorthes\ 2\ colo.jpg) center/cover;
 }
+
 /*Bouton HOME*/
+
 #home {
   color: whitesmoke;
   border-radius: 5px;
