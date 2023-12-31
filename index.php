@@ -18,7 +18,7 @@
       <h1>Aller au bout de soi-même</h1>
     </header>
     <nav>
-      <a href="./index.html"> Accueil </a>
+      <a href="./index.php"> Accueil </a>
 
       <a href="./pages/marathons.php">
         <img src="./assets/images/menu/dest.svg" alt="Les marathons dans le monde" />
@@ -119,67 +119,21 @@
       <div class="titre_section">
         <h2>Passion Marathons sur Instagram</h2>
       </div>
+
       <div>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta1.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta2.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta3.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta4.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta5.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta6.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta7.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta8.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta9.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
-        <a href="#" style="
-              background-image: url(./assets/images/home/instagram/insta10.webp);
-              background-size: cover;
-              background-position: center center;
-            ">
-        </a>
+        <?php
+        $images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+        for ($i = 1; $i <= 10; $i++) {
+          $num = $images[rand(0, 17)];
+          echo
+          '<a href="#" style="
+            background-image: url(./assets/images/home/instagram/insta' . $num . '.webp);
+            background-size: cover;
+            background-position: center center;">
+          </a>';
+        }
+        ?>
+
       </div>
       <div>
         <a href="https://www.instagram.com">
