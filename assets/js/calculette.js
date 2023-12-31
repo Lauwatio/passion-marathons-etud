@@ -24,7 +24,6 @@ window.addEventListener("DOMContentLoaded", function () {
     let kalVal = calculKal(vitVal, tempsVal, poidsVal);
     let nbMac = nombreMac(kalVal);
 
-    // Stockage local pour conserver les informations
     localStorage.setItem(
       "derniereInfoKal",
       JSON.stringify({
@@ -33,14 +32,12 @@ window.addEventListener("DOMContentLoaded", function () {
       })
     );
 
-    // Redirection avec le paramètre nbMac
     const url =
       "http://localhost/marathons/passion-marathons-etud/pages/calculette.php?nbMac=" +
       encodeURIComponent(nbMac);
     window.location.href = url;
   });
 
-  // Récupération des informations du stockage local au chargement de la page
   const derniereInfoKal = localStorage.getItem("derniereInfoKal");
   if (derniereInfoKal) {
     const { calories, temps } = JSON.parse(derniereInfoKal);
