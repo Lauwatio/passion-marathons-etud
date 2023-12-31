@@ -67,7 +67,6 @@
   for ($i = 1; $i <= $nbMac; $i = $i + 1) {
     echo '<img src="./../assets/images/macarons/macaron.png" alt="Macaron">';
   }
-
   ?>
 
 </body>
