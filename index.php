@@ -18,24 +18,24 @@
       <h1>Aller au bout de soi-même</h1>
     </header>
     <nav>
-      <a href="./index.php"> Accueil </a>
+      <a tabindex="0" href="./index.php"> Accueil </a>
 
-      <a href="./pages/marathons.php">
+      <a tabindex="0" href="./pages/marathons.php">
         <img src="./assets/images/menu/dest.svg" alt="Les marathons dans le monde" />
         Marathons
       </a>
 
-      <a href="./pages/alimentation.html">
+      <a tabindex="0" href="./pages/alimentation.html">
         <img src="./assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon" />
         Conseils
       </a>
 
-      <a href="#">
+      <a tabindex="0" href="#">
         <img src="./assets/images/menu/tems.svg" alt="Témoignages de marathoniens" />
         Témoignages
       </a>
 
-      <a href="./pages/auteurs.html">
+      <a tabindex="0" href="./pages/auteurs.html">
         <img src="./assets/images/menu/nous.svg" alt="Equipe de Passion Marathons" />
         L'équipe
       </a>
@@ -43,18 +43,18 @@
     </nav>
     <div id="alaune">
       <img src="./assets/images/home/alaune/new-york.jpg" alt="Ligne d'arrivée du marathon de New York" />
-      <div>
+      <div tabindex="0">
         <p>By Greg / Juillet 2023</p>
         <p>L'aventure d'une vie</p>
         <a href="#">Lire plus</a>
       </div>
     </div>
     <section id="articles">
-      <div class="titre_section">
+      <div tabindex="0" class="titre_section">
         <h2>Nos derniers articles</h2>
       </div>
       <div>
-        <a href="#">
+        <a tabindex="0" href="#">
           <figure>
             <div>
               <img src="./assets/images/home/articles/medoc.jpg" alt="Marathon du Médoc" />
@@ -65,7 +65,7 @@
             </figcaption>
           </figure>
         </a>
-        <a href="#">
+        <a tabindex="0" href="#">
           <figure>
             <div>
               <img src="./assets/images/home/articles/cognac.jpg" alt="Marathon de Cognac" />
@@ -76,7 +76,7 @@
             </figcaption>
           </figure>
         </a>
-        <a href="#">
+        <a tabindex="0" href="#">
           <figure>
             <div>
               <img src="./assets/images/home/articles/dietetique.jpg" alt="Préparation marathon" />
@@ -90,15 +90,15 @@
       </div>
     </section>
     <section id="temoignage">
-      <div class="titre_section">
+      <div tabindex="0" class="titre_section">
         <h2>Sur la ligne d'arrivée</h2>
       </div>
       <div>
-        <blockquote>
+        <blockquote tabindex="0">
           <em>Au départ : une adrénaline de ouf, au 32ème : un coup de barre
             XXL</em>
         </blockquote>
-        <p class="texte_paragraphe">
+        <p tabindex="0" class="texte_paragraphe">
           L’hymne américain retenti, le coup de canon part…la course est
           lancée. A moi New York mais avant il va falloir passer le Verazano
           Brigde. ça grimpe dur mais qu’est ce que c’est beau. Ensuite c’est
@@ -117,7 +117,7 @@
     </section>
     <section id="instagram">
       <div class="titre_section">
-        <h2>Passion Marathons sur Instagram</h2>
+        <h2 tabindex="0">Passion Marathons sur Instagram</h2>
       </div>
 
       <div>
@@ -132,7 +132,7 @@
           $del[] = $num;
 
           echo
-            '<a href="#" style="
+          '<a href="#" style="
             background-image: url(./assets/images/home/instagram/insta' . $num . '.webp);
             background-size: cover;
             background-position: center center;">
@@ -142,7 +142,7 @@
 
       </div>
       <div>
-        <a href="https://www.instagram.com">
+        <a tabindex="0" href="https://www.instagram.com">
           <i class="fa-brands fa-instagram"></i> Rejoignez-nous sur Insta
         </a>
       </div>
@@ -155,11 +155,11 @@
     <a href="#">Un coatching personnalisé en nutrition</a>
   </div>
   <footer>
-    <p>
+    <p tabindex="0">
       Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com
     </p>
-    <a href="./pages/auteurs.html">Les auteurs du site </a>
-    <a href="#bloc_principal">Haut de la page</a>
+    <a tabindex="0" href="./pages/auteurs.html">Les auteurs du site </a>
+    <a tabindex="0" href="#bloc_principal">Haut de la page</a>
   </footer>
 </body>
 
