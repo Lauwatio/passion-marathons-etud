@@ -1,0 +1,9 @@
+ajout des tabindex="0" pour navigation clavier
+ajout aria-hidden="true" pour les trucs à ne pas lire en synthèse voc
+ajout aria-label="ce que c'est" pour expliquer les sections du site en voc
+fusion de tout les CSS yiiiikes
+ajouter les boutons de taille de police et de police Open Dys
+importer police, bouton + et -
+faire le js pour les changements ci-dessus
+refaire CSS calculette
+ajouter éléments animés/intéractifs
