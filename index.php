@@ -18,7 +18,7 @@
       <h1>Aller au bout de soi-même</h1>
     </header>
     <nav>
-      <a tabindex="0" href="./index.php"> Accueil </a>
+      <a tabindex="0" href="./index.php"><img src="./assets/images/menu/house.svg" alt="L'accueil" /> Accueil </a>
 
       <a tabindex="0" href="./pages/marathons.php">
         <img src="./assets/images/menu/dest.svg" alt="Les marathons dans le monde" />
