@@ -5,5 +5,5 @@ fusion de tout les CSS yiiiikes
 ajouter les boutons de taille de police et de police Open Dys
 importer police, bouton + et -
 faire le js pour les changements ci-dessus
-refaire CSS calculette
+refaire CSS calculette (en cours...)
 ajouter éléments animés/intéractifs
