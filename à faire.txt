@@ -8,3 +8,5 @@ faire le js pour les changements ci-dessus
 refaire CSS calculette (en cours...)
 ajouter éléments animés/intéractifs
 ajouter menu flottant
+
+!!!!!!!!! PENSER A MODIFIER L'URL DE CALCULATRICE.JS AVANT RENDU !!!!!!!!!!!!!!!
