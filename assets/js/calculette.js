@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function () {
     );
 
     const url =
-      "http://localhost/marathons/passion-marathons-etud/pages/calculette.php?nbMac=" +
+      "http://localhost/passion-marathons-etud/pages/calculette.php?nbMac=" +
       encodeURIComponent(nbMac);
     window.location.href = url;
   });
