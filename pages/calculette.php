@@ -15,27 +15,8 @@
     <header>
       <img src="./../assets/images/bannierecalculatrice.png"
         alt="Passion Marathons - Agence spécialisées dans les marathons" />
-      <h1>Passion Marathons</h1>
     </header>
-    <nav>
-      <a href="./../index.php"> Accueil </a>
-      <a href="./../pages/marathons.html">
-        <img src="./../assets/images/menu/dest.svg" alt="Les marathons dans le monde" />
-        Marathons
-      </a>
-      <a href="./../pages/alimentation.html">
-        <img src="./../assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon" />
-        Conseils
-      </a>
-      <a href="#">
-        <img src="./../assets/images/menu/tems.svg" alt="Témoignages de marathoniens" />
-        Témoignages
-      </a>
-      <a href="./auteurs.html">
-        <img src="./../assets/images/menu/nous.svg" alt="Equipe de Passion Marathons" />
-        L'équipe
-      </a>
-    </nav>
+
   </div>
   <div id="calculette">
     <h2 id="consTitle">Consommation en Kcal par minute</h2>
@@ -69,7 +50,13 @@
     echo '<img src="./../assets/images/macarons/macaron.png" alt="Macaron">';
   }
   ?>
-
+  <footer>
+    <nav>
+      <a href="./../pages/alimentation.html">
+        Retour aux Conseils
+      </a>
+    </nav>
+  </footer>
 </body>
 
 </html>
