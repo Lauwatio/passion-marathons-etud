@@ -7,7 +7,7 @@ html {
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
-  color: rgb(180, 185, 193);
+  color: rgb(0, 0, 0);
   letter-spacing: 3.6px;
   font-weight: 400;
   background: url(./../images/macarons/fond_bouge.jpg) top/cover;
@@ -104,4 +104,5 @@ header h1 {
 footer{
   background-color:#222222;
   color: white;
+  text-decoration: none;
 }
