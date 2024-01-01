@@ -59,11 +59,11 @@
 						?>
 						<tr>
 							<td>
-								<?= $date ?>
+								<?php echo $date ?>
 							<td>
-								<?= $pays ?>
+								<?php echo $pays ?>
 							<td>
-								<?= $ville ?>
+								<?php echo $ville ?>
 						<tr>
 
 						<?php } ?>
