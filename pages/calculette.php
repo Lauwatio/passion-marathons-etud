@@ -14,7 +14,7 @@
   <div id="bloc_principal">
     <header>
       <img src="./../assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons" />
-      <h1>Aller au bout de soi-même</h1>
+      <h1>Passion Marathons</h1>
     </header>
     <nav>
       <a href="./../index.php"> Accueil </a>

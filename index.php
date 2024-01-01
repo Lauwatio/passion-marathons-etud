@@ -123,8 +123,14 @@
       <div>
         <?php
         $images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+        $del=[];
         for ($i = 1; $i <= 10; $i++) {
-          $num = $images[rand(0, 17)];
+          do{
+            $num = $images[rand(0, 17)];
+          } while(in_array($num, $del));
+
+          $del[] = $num;
+
           echo
           '<a href="#" style="
             background-image: url(./assets/images/home/instagram/insta' . $num . '.webp);
