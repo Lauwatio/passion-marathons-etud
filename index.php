@@ -18,24 +18,24 @@
       <h1>Aller au bout de soi-même</h1>
     </header>
     <nav>
-      <a href="./index.php"> Accueil </a>
+      <a tabindex="0" href="./index.php"> Accueil </a>
 
-      <a href="./pages/marathons.php">
+      <a tabindex="0" href="./pages/marathons.php">
         <img src="./assets/images/menu/dest.svg" alt="Les marathons dans le monde" />
         Marathons
       </a>
 
-      <a href="./pages/alimentation.html">
+      <a tabindex="0" href="./pages/alimentation.html">
         <img src="./assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon" />
         Conseils
       </a>
 
-      <a href="#">
+      <a tabindex="0" href="#">
         <img src="./assets/images/menu/tems.svg" alt="Témoignages de marathoniens" />
         Témoignages
       </a>
 
-      <a href="./pages/auteurs.html">
+      <a tabindex="0" href="./pages/auteurs.html">
         <img src="./assets/images/menu/nous.svg" alt="Equipe de Passion Marathons" />
         L'équipe
       </a>
@@ -123,11 +123,11 @@
       <div>
         <?php
         $images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
-        $del=[];
+        $del = [];
         for ($i = 1; $i <= 10; $i++) {
-          do{
+          do {
             $num = $images[rand(0, 17)];
-          } while(in_array($num, $del));
+          } while (in_array($num, $del));
 
           $del[] = $num;
 
