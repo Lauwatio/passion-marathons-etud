@@ -132,7 +132,7 @@
           $del[] = $num;
 
           echo
-          '<a href="#" style="
+            '<a href="#" style="
             background-image: url(./assets/images/home/instagram/insta' . $num . '.webp);
             background-size: cover;
             background-position: center center;">
