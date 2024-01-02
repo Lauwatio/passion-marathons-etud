@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
 }
-html {
+#calculettehtml {
   font-family: Oswald;
   font-weight: normal;
   font-style: normal;
@@ -24,12 +24,12 @@ html {
   }
 }
 
-a {
+#retoursconseils {
   text-decoration: none;
   color:azure;
 }
 body {
-  padding: 5px;
+  padding: 8px;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
   margin-bottom: 5px;
   width: 500px;
 }
-#bloc_principal {
+#bloc_principalcalc {
   margin: 0 auto;
   display: flex;
   text-decoration: none;
@@ -51,30 +51,12 @@ body {
 header img {
   width: 100%;
   height: auto;
-  display: inline-block;
 }
 header h1 {
   text-align: center;
   font-size: 1.05rem;
 }
-#bloc_principal > nav {
-  height: 50px;
-  margin-top: 20px;
-  text-align: center;
-}
-#bloc_principal > nav img {
-  height: 18px;
-  width: auto;
-}
-#bloc_principal > nav a {
-  height: 50px;
-  line-height: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 1.05rem;
-  color: rgb(0, 0, 0);
-  font-weight: 200;
-}
+
 #calculette {
   margin: 20px;
   display: flex;
@@ -98,7 +80,7 @@ header h1 {
   padding: 10px;
   color: rgb(0, 0, 0);
 }
-#btn {
+#btncalc {
   padding: 10px;
   font-family: Oswald;
   font-weight: normal;
@@ -114,7 +96,7 @@ header h1 {
 #macarons img {
   display: inline-block;
 }
-#retour{
+#retourcalc{
   background-color:#222222;
   padding: 10px;
   width: fit-content;
