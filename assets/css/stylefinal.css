@@ -352,7 +352,11 @@ Mise en forme des accessButtons
 #alimentation {
   margin-top: 35px;
 }
-
+#h2alim
+{
+  text-align: left;
+  color: #0ba3d1;
+}
 #onglets {
   display: flex;
   flex-direction: row;
