@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", function () {
   const poids = document.getElementById("poids");
   const btn = document.getElementById("btn");
   const kal = document.getElementById("kal");
+  const com= document.getElementById("com")
 
   function calculKal(a, b, c) {
     let m = (a * 3.5 * c) / 200;
@@ -42,5 +43,9 @@ window.addEventListener("DOMContentLoaded", function () {
   if (derniereInfoKal) {
     const { calories, temps } = JSON.parse(derniereInfoKal);
     kal.innerHTML = `Vous allez dépenser ${calories} kal en ${temps} minutes.`;
+  }
+  if(calories >= 100)
+  {
+    com.innerHTML = 'Continuez comme ça !!'
   }
 });

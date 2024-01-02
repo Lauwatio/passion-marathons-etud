@@ -42,7 +42,7 @@
   </div>
   <button id="btn">Calculer</button>
   <div id="kal"></div>
-
+  <div id="com"></div>
   <script src="./../assets/js/calculette.js"></script>
 
   <?php
