@@ -18,6 +18,7 @@
 		</header>
 		<nav>
 			<a href="./../index.php">
+				<img src="./../assets/images/menu/house.svg" alt="L'accueil" />
 				Accueil
 			</a>
 			<a href="#">
@@ -56,7 +57,7 @@
 						$ville = $marathon_info[1];
 						$pays = $marathon_info[2];
 
-						?>
+					?>
 						<tr>
 							<td>
 								<?php echo $date ?>
