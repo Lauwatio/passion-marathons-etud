@@ -76,7 +76,7 @@
             </figcaption>
           </figure>
         </a>
-        <a tabindex="0" href="#">
+        <a tabindex="0" href="./pages/alimentation.html">
           <figure>
             <div>
               <img src="./assets/images/home/articles/dietetique.jpg" alt="Préparation marathon" />
