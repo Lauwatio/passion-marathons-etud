@@ -94,7 +94,7 @@ header h1 {
   display: flex;
   width: 4rem;
 }
-#kal {
+#kal, #com {
   padding: 10px;
   color: rgb(0, 0, 0);
 }

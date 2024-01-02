@@ -44,8 +44,16 @@ window.addEventListener("DOMContentLoaded", function () {
     const { calories, temps } = JSON.parse(derniereInfoKal);
     kal.innerHTML = `Vous allez dépenser ${calories} kal en ${temps} minutes.`;
   }
-  if(calories >= 100)
+  if(calories <= 100)
+  {
+    com.innerHTML = 'Accrochez-vous!!'
+  }
+  if(calories > 100 || calories <= 500)
   {
     com.innerHTML = 'Continuez comme ça !!'
+  }
+  if(calories > 500)
+  {
+    com.innerHTML = 'Quelle performance !!'
   }
 });
