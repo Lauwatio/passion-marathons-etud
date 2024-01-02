@@ -63,6 +63,6 @@ window.addEventListener("DOMContentLoaded", function () {
   const dernierCom = localStorage.getItem("dernierCom");
   if (dernierCom) {
     const { message } = JSON.parse(dernierCom);
-    com.innerHTML = `${message}`;
+    com.innerHTML = `${message} Voici l'équivalent brulé en macarons :`;
   }
 });
