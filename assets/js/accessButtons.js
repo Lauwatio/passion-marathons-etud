@@ -8,6 +8,10 @@ document.addEventListener("DOMContentLoaded", function () {
   buttonDys.addEventListener("click", function () {
     document.body.classList.toggle("dys");
   });
+  /*
+  Problème lors de l'implémentation des boutons de taille de police
+  donc abandon de la fonctionnalité par manque de temps
+
   buttonIncrease.addEventListener("click", () => {
     let textSize = window.getComputedStyle(texts).fontSize;
     textSize = parseInt(textSize);
@@ -28,4 +32,5 @@ document.addEventListener("DOMContentLoaded", function () {
       errorMessage.textContent = "Vous êtes à la taille minimale";
     }
   });
+  */
 });
