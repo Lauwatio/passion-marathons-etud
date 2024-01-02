@@ -52,13 +52,13 @@
   }
   ?>
   </div>
-  <footer>
-    <nav>
+  <div>
+    <nav id="retour">
       <a href="./../pages/alimentation.html">
         Retour aux Conseils
       </a>
     </nav>
-  </footer>
+  </div>
 </body>
 
 </html>
