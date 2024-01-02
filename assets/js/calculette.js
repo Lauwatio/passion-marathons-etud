@@ -58,7 +58,7 @@ window.addEventListener("DOMContentLoaded", function () {
   const derniereInfoKal = localStorage.getItem("derniereInfoKal");
   if (derniereInfoKal) {
     const { calories, temps } = JSON.parse(derniereInfoKal);
-    kal.innerHTML = `Vous allez dépenser ${calories} kal en ${temps} minutes.`;
+    kal.innerHTML = `Vous avez dépensé ${calories} kal en ${temps} minutes.`;
   }
   const dernierCom = localStorage.getItem("dernierCom");
   if (dernierCom) {
