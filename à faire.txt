@@ -5,8 +5,8 @@ fusion de tout les CSS yiiiikes
 ajouter les boutons de taille de police et de police Open Dys
 importer police, bouton + et -
 faire le js pour les changements ci-dessus
-refaire CSS calculette (en cours...)
 ajouter éléments animés/intéractifs
 ajouter menu flottant
+images auteurs
 
 !!!!!!!!! PENSER A MODIFIER L'URL DE CALCULATRICE.JS AVANT RENDU !!!!!!!!!!!!!!!

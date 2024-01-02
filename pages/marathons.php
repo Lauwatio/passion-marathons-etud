@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div id="bloc_principal">
+	<div tarbindex="0" id="bloc_principal">
 		<header>
 			<img src="./../assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons">
 			<p>Aller au bout de soi-même</p>
@@ -39,7 +39,7 @@
 			</a>
 
 		</nav>
-		<div id="liste_marathons">
+		<div  tarbindex="0" id="liste_marathons">
 			<h1 class="titre_page_secondaire">Marathons 2024</h1>
 			<table>
 				<thead>
@@ -70,8 +70,8 @@
 						<?php } ?>
 				</tbody>
 			</table>
-		</div>
-	</div>
+		</div  tarbindex="0">
+	</div  tarbindex="0">
 	<footer>
 		<p>Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com</p>
 		<a href="#">Les auteurs du site </a>
