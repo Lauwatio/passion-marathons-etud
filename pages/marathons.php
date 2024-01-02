@@ -14,7 +14,7 @@
 	<div tarbindex="0" id="bloc_principal">
 		<header>
 			<img src="./../assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons">
-			<p tabindex="0">Aller au bout de soi-même</p>
+			<h1 tabindex="0">Aller au bout de soi-même</h1>
 		</header>
 		<nav>
 			<a tabindex="0" href="./../index.php">

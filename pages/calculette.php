@@ -47,7 +47,7 @@
     <?php
     $nbMac = isset($_GET['nbMac']) ? $_GET['nbMac'] : null;
     for ($i = 1; $i <= $nbMac; $i = $i + 1) {
-      echo '<img src="./../assets/images/macarons/macaron.png" alt="Macaron">';
+      echo '<img id="macaronimg"src="./../assets/images/macarons/macaron.png" alt="Macaron">';
     }
     ?>
   </div>

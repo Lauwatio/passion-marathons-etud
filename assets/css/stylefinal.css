@@ -9,7 +9,7 @@ html {
   font-size: 16px;
   color: rgb(140, 145, 155);
   letter-spacing: 3.6px;
-  font-weight: 400;
+  font-weight: 700;
 }
 /*
   
@@ -38,6 +38,7 @@ header img {
 header h1 {
   text-align: center;
   font-size: 1.05rem;
+  font-weight: 700;
 }
 #bloc_principal > nav {
   height: 50px;
@@ -348,13 +349,7 @@ i {
 #alimentation {
   margin-top: 35px;
 }
-h1 {
-  font-family: Oswald;
-  font-size: 1.8rem;
-  letter-spacing: 3.6px;
-  text-transform: uppercase;
-  color: #d3d3d3;
-}
+
 #onglets {
   display: flex;
   flex-direction: row;
@@ -479,8 +474,9 @@ article p {
     background-color: white;
     border-radius: 10px;
   }
-  #macarons img {
+  #macaronimg {
     display: inline-block;
+    width: 20%;
   }
   #retourcalc{
     background-color:#222222;
