@@ -4,11 +4,27 @@ window.addEventListener("DOMContentLoaded", function () {
   const poids = document.getElementById("poids");
   const btncalc = document.getElementById("btncalc");
   const kal = document.getElementById("kal");
-  const com= document.getElementById("com")
+  const com = document.getElementById("com");
 
   function calculKal(a, b, c) {
     let m = (a * 3.5 * c) / 200;
     m = m * b;
+    let com = "";
+    if (m <= 100) {
+      com = "Accrochez-vous!!";
+    }
+    if (m > 100 && m <= 500) {
+      com = "Continuez comme ça !!";
+    }
+    if (m > 500) {
+      com = "Quelle performance !!";
+    }
+    localStorage.setItem(
+      "dernierCom",
+      JSON.stringify({
+        message: com,
+      })
+    );
     return m;
   }
   function nombreMac(a) {
@@ -44,16 +60,9 @@ window.addEventListener("DOMContentLoaded", function () {
     const { calories, temps } = JSON.parse(derniereInfoKal);
     kal.innerHTML = `Vous allez dépenser ${calories} kal en ${temps} minutes.`;
   }
-  if(calories <= 100)
-  {
-    com.innerHTML = 'Accrochez-vous!!'
-  }
-  if(calories > 100 || calories <= 500)
-  {
-    com.innerHTML = 'Continuez comme ça !!'
-  }
-  if(calories > 500)
-  {
-    com.innerHTML = 'Quelle performance !!'
+  const dernierCom = localStorage.getItem("dernierCom");
+  if (dernierCom) {
+    const { message } = JSON.parse(dernierCom);
+    com.innerHTML = `${message}`;
   }
 });
