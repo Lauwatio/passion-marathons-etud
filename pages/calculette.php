@@ -11,13 +11,15 @@
 </head>
 
 <body>
+  <div id="flex">
+   <div id="cadre">
   <div id="bloc_principal">
     <header>
       <img src="./../assets/images/bannierecalculatrice.png"
         alt="Passion Marathons - Agence spécialisées dans les marathons" />
     </header>
-
   </div>
+ 
   <div id="calculette">
     <h2 id="consTitle">Consommation en Kcal par minute</h2>
 
@@ -43,7 +45,8 @@
   <div id="kal"></div>
 
   <script src="./../assets/js/calculette.js"></script>
-
+</div>
+</div>
   <?php
   $nbMac = isset($_GET['nbMac']) ? $_GET['nbMac'] : null;
   for ($i = 1; $i <= $nbMac; $i = $i + 1) {
