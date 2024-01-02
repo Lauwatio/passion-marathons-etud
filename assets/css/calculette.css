@@ -39,12 +39,14 @@ body {
   opacity: 0.6;
   border-radius: 20px;
   display: inline-block;
-  z-index: -50;
+  padding-top: 5px;
+  margin-bottom: 5px;
 }
 #bloc_principal {
   width: 1050px;
   margin: 0 auto;
   display: flex;
+  text-decoration: none;
 }
 /*Mise en forme de l'entête : image et slogan*/
 header img {
