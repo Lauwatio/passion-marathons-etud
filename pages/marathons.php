@@ -14,39 +14,39 @@
 	<div tarbindex="0" id="bloc_principal">
 		<header>
 			<img src="./../assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons">
-			<p>Aller au bout de soi-même</p>
+			<p tabindex="0">Aller au bout de soi-même</p>
 		</header>
 		<nav>
-			<a href="./../index.php">
+			<a tabindex="0" href="./../index.php">
 				<img src="./../assets/images/menu/house.svg" alt="L'accueil" />
 				Accueil
 			</a>
-			<a href="#">
+			<a tabindex="0" href="#">
 				<img src="./../assets/images/menu/dest.svg" alt="Les marathons dans le monde">
 				Marathons
 			</a>
-			<a href="./alimentation.html">
+			<a tabindex="0" href="./alimentation.html">
 				<img src="./../assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon">
 				Conseils
 			</a>
-			<a href="#">
+			<a tabindex="0" href="#">
 				<img src="./../assets/images/menu/tems.svg" alt="Témoignages de marathoniens">
 				Témoignages
 			</a>
-			<a href="./auteurs.html">
+			<a tabindex="0" href="./auteurs.html">
 				<img src="./../assets/images/menu/nous.svg" alt="Equipe de Passion Marathons">
 				L'équipe
 			</a>
 
 		</nav>
 		<div  tarbindex="0" id="liste_marathons">
-			<h1 class="titre_page_secondaire">Marathons 2024</h1>
+			<h1 class="titre_page_secondaire" tabindex="0">Marathons 2024</h1>
 			<table>
 				<thead>
 					<tr>
-						<th>Dates
-						<th>Pays
-						<th>Ville
+						<th tabindex="0">Dates
+						<th tabindex="0">Pays
+						<th tabindex="0">Ville
 				</thead>
 				<tbody>
 					<?php
@@ -59,11 +59,11 @@
 
 					?>
 						<tr>
-							<td>
+							<td tabindex="0">
 								<?php echo $date ?>
-							<td>
+							<td tabindex="0">
 								<?php echo $pays ?>
-							<td>
+							<td tabindex="0">
 								<?php echo $ville ?>
 						<tr>
 
@@ -73,9 +73,9 @@
 		</div  tarbindex="0">
 	</div  tarbindex="0">
 	<footer>
-		<p>Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com</p>
-		<a href="#">Les auteurs du site </a>
-		<a href="#bloc_principal">Haut de la page</a>
+		<p tabindex="0">Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com</p>
+		<a tabindex="0" href="#">Les auteurs du site </a>
+		<a tabindex="0" href="#bloc_principal">Haut de la page</a>
 	</footer>
 </body>
 

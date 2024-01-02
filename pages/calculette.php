@@ -20,27 +20,27 @@
   </div>
  
   <div id="calculette">
-    <h2 id="consTitle">Consommation en Kcal par minute</h2>
+    <h2 id="consTitle" tabindex="0">Consommation en Kcal par minute</h2>
 
-    <label for="vit">Vitesse de course :</label>
+    <label for="vit" tabindex="0">Vitesse de course :</label>
     <div>
       <input type="text" id="vit" />
-      <p>km/h</p>
+      <p tabindex="0">km/h</p>
     </div>
 
-    <label for="temps">Temps de course :</label>
+    <label for="temps" tabindex="0">Temps de course :</label>
     <div>
       <input type="text" id="temps" />
-      <p>min</p>
+      <p tabindex="0">min</p>
     </div>
 
-    <label for="poids">Poids :</label>
+    <label for="poids" tabindex="0">Poids :</label>
     <div>
       <input type="text" id="poids" />
-      <p>kg</p>
+      <p tabindex="0">kg</p>
     </div>
   </div>
-  <button id="btn">Calculer</button>
+  <button id="btn" tabindex="0">Calculer</button>
   <div id="kal"></div>
   <div id="com"></div>
   <script src="./../assets/js/calculette.js"></script>
@@ -54,7 +54,7 @@
   </div>
   <div>
     <nav id="retour">
-      <a href="./../pages/alimentation.html">
+      <a href="./../pages/alimentation.html" tabindex="0">
         Retour aux Conseils
       </a>
     </nav>
