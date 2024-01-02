@@ -8,29 +8,25 @@ document.addEventListener("DOMContentLoaded", function () {
   buttonDys.addEventListener("click", function () {
     document.body.classList.toggle("dys");
   });
-  /*
-  Problème lors de l'implémentation des boutons de taille de police
-  donc abandon de la fonctionnalité par manque de temps
-
   buttonIncrease.addEventListener("click", () => {
     let textSize = window.getComputedStyle(texts).fontSize;
     textSize = parseInt(textSize);
-    errorMessage.textContent = "";
+    console.log("Current text size:", textSize);
     if (textSize < 50) {
+      errorMessage.textContent = "";
       texts.style.fontSize = textSize + 5 + "px";
     } else {
-      errorMessage.textContent = "Vous êtes à la taille maximale";
+      errorMessage.textContent = "Taille maximale";
     }
   });
   buttonDecrease.addEventListener("click", () => {
     let textSize = window.getComputedStyle(texts).fontSize;
     textSize = parseInt(textSize);
-    errorMessage.textContent = "";
     if (12 < textSize) {
+      errorMessage.textContent = "";
       texts.style.fontSize = textSize - 5 + "px";
     } else {
-      errorMessage.textContent = "Vous êtes à la taille minimale";
+      errorMessage.textContent = "Taille minimale";
     }
   });
-  */
 });

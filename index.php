@@ -98,7 +98,7 @@
           <em class="texts">Au départ : une adrénaline de ouf, au 32ème : un coup de barre
             XXL</em>
         </blockquote>
-        <p class="texts" tabindex="0" class="texte_paragraphe" id="text">
+        <p class="texts" tabindex="0">
           L’hymne américain retenti, le coup de canon part…la course est
           lancée. A moi New York mais avant il va falloir passer le Verazano
           Brigde. ça grimpe dur mais qu’est ce que c’est beau. Ensuite c’est
@@ -155,11 +155,10 @@
     <a href="#" tabindex="0">Un coatching personnalisé en nutrition</a>
   </div>
   <section class="accessButtons">
-    <!--
     <button tabindex="0" id="buttonIncrease">A+</button>
     <button tabindex="0" id="buttonDecrease">A-</button>
-    -->
     <button tabindex="0" id="buttonDys">Dyslexique</button>
+    <div style="color: white;" class="errorMessage"></div>
   </section>
   <script src="./assets/js/accessButtons.js"></script>
   <footer>
