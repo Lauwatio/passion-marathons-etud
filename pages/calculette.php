@@ -11,7 +11,6 @@
 </head>
 
 <body>
-  <div id="flex">
    <div id="cadre">
   <div id="bloc_principal">
     <header>
@@ -45,7 +44,6 @@
   <div id="kal"></div>
 
   <script src="./../assets/js/calculette.js"></script>
-</div>
 </div>
   <?php
   $nbMac = isset($_GET['nbMac']) ? $_GET['nbMac'] : null;

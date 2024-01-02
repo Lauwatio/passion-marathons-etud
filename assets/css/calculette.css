@@ -32,18 +32,14 @@ body {
   padding: 5px;
   text-align: center;
 }
-#flex
-{
-  display: flex;
-  align-items: center;
-}
+
 #cadre
 {
    background-color: azure;
   opacity: 0.6;
-  width: 1000px;
-  border-radius: 5px;
-  align-items: center;
+  border-radius: 20px;
+  display: inline-block;
+  z-index: -50;
 }
 #bloc_principal {
   width: 1050px;
