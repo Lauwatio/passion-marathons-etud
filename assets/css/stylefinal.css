@@ -528,13 +528,12 @@ article p {
 
 /*LAURA*/
 #laura {
-  text-align: center;
-  background: url(./../images/auteurs/pokemonn.jpg) top/cover;
+  padding-left: 300px;
+  background: url(./../images/auteurs/pokemonn.jpg) right/cover;
   justify-content: center;
   text-transform: uppercase;
   align-items: start;
   font-size: 50px;
-  transform: scaleX(-1);
   text-shadow: -5px 0 5px rgb(245, 20, 12);
 }
 #laura > div,
@@ -545,9 +544,6 @@ article p {
   height: 50%;
 }
 
-#laura > div {
-  transform: scaleX(-1);
-}
 #textArea {
   display: none;
 }
@@ -584,7 +580,7 @@ article p {
   text-transform: uppercase;
   justify-content: center;
   align-items: end;
-  background: url(./../images/auteurs/Coldwaterman\ full.jpg) right/cover;
+  background: url(./../images/auteurs/quentin2.jpg) top/cover;
   text-shadow: 5px 0 5px rgb(15, 197, 127);
 }
 
