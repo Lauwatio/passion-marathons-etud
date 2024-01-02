@@ -54,8 +54,8 @@ header h1 {
 #bloc_principal > nav a {
   height: 50px;
   line-height: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 1.05rem;
   color: rgb(51, 51, 51);
   font-weight: 200;
@@ -186,7 +186,6 @@ section {
 }
 .texte_paragraphe {
   font-size: 1rem;
-  color: rgb(68, 68, 68);
   line-height: 24px;
   text-align: justify;
 }
@@ -320,7 +319,7 @@ Mise en forme des accessButtons
 }
 .accessButtons {
   position: fixed;
-  bottom: 20px;
+  bottom: 70px;
   right: 65px;
   padding: 5px;
   text-align: center;
@@ -507,7 +506,7 @@ article p {
   color: white;
   padding: 10px;
   border-radius: 10px;
-  background-color: black;
+  background-color: rgb(140, 145, 155);
   display: inline-block;
   width: max-content;
   margin-left: auto;
@@ -528,8 +527,8 @@ article p {
 
 /*LAURA*/
 #laura {
-  padding-left: 300px;
-  background: url(./../images/auteurs/pokemonn.jpg) right/cover;
+  
+  background: url(./../images/auteurs/pokemonn.png) left/cover;
   justify-content: center;
   text-transform: uppercase;
   align-items: start;
@@ -591,6 +590,7 @@ article p {
 #quentin a {
   color: white;
 }
+
 #auteurbody {
   height: 100%;
   padding: 0px;
@@ -617,6 +617,10 @@ div:first-child > img {
   font-size: 5vh;
   flex-direction: column;
 }
+#bio
+{
+    background-color: whitesmoke;
+}
 #illu1,
 #illu2,
 #illu3,
@@ -628,7 +632,7 @@ div:first-child > img {
 }
 #texte {
   font-size: 4vh;
-  padding: 10vh;
+  padding: 6vh;
 }
 #illu1 {
   background: url(./../images/auteurs/ffollet.png) top/cover;
