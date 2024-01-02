@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", function () {
   const vit = document.getElementById("vit");
   const temps = document.getElementById("temps");
   const poids = document.getElementById("poids");
-  const btn = document.getElementById("btn");
+  const btncalc = document.getElementById("btncalc");
   const kal = document.getElementById("kal");
   const com= document.getElementById("com")
 
@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function () {
     return n;
   }
 
-  btn.addEventListener("click", function () {
+  btncalc.addEventListener("click", function () {
     let vitVal = Number(vit.value);
     let tempsVal = Number(temps.value);
     let poidsVal = Number(poids.value);

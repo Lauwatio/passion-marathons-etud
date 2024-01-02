@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html id="calculettehtml">
 
 <head>
   <title>Passion Marathons | Calculette</title>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="./../assets/css/calculette.css" type="text/css" />
+  <link rel="stylesheet" href="./../assets/css/stylefinal.css" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet" />
@@ -12,7 +12,7 @@
 
 <body>
    <div id="cadre">
-  <div id="bloc_principal">
+  <div id="bloc_principalcalc">
     <header>
       <img src="./../assets/images/bannierecalculatrice.png"
         alt="Passion Marathons - Agence spécialisées dans les marathons" />
@@ -40,7 +40,7 @@
       <p tabindex="0">kg</p>
     </div>
   </div>
-  <button id="btn" tabindex="0">Calculer</button>
+  <button id="btncalc" tabindex="0">Calculer</button>
   <div id="kal"></div>
   <div id="com"></div>
   <script src="./../assets/js/calculette.js"></script>
@@ -53,8 +53,8 @@
   ?>
   </div>
   <div>
-    <nav id="retour">
-      <a href="./../pages/alimentation.html" tabindex="0">
+    <nav id="retourcalc">
+      <a id="retoursconseils" href="./../pages/alimentation.html" tabindex="0">
         Retour aux Conseils
       </a>
     </nav>
