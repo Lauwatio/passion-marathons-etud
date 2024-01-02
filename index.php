@@ -4,7 +4,7 @@
 <head>
   <title>Passion marathons</title>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="./assets/css/stylefinal.css" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <script src="https://kit.fontawesome.com/79fc45146d.js" crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
   <div id="bloc_principal">
     <header>
       <img src="./assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons" />
-      <h1>Aller au bout de soi-même</h1>
+      <h1 tabindex="0">Aller au bout de soi-même</h1>
     </header>
     <nav>
       <a tabindex="0" href="./index.php"><img src="./assets/images/menu/house.svg" alt="L'accueil" /> Accueil </a>
@@ -44,14 +44,14 @@
     <div id="alaune">
       <img src="./assets/images/home/alaune/new-york.jpg" alt="Ligne d'arrivée du marathon de New York" />
       <div tabindex="0">
-        <p>By Greg / Juillet 2023</p>
-        <p>L'aventure d'une vie</p>
-        <a href="#">Lire plus</a>
+        <p tabindex="0">By Greg / Juillet 2023</p>
+        <p tabindex="0">L'aventure d'une vie</p>
+        <a href="#" tabindex="0">Lire plus</a>
       </div>
     </div>
     <section id="articles">
       <div tabindex="0" class="titre_section">
-        <h2>Nos derniers articles</h2>
+        <h2 tabindex="0">Nos derniers articles</h2>
       </div>
       <div>
         <a tabindex="0" href="#">
@@ -60,8 +60,8 @@
               <img src="./assets/images/home/articles/medoc.jpg" alt="Marathon du Médoc" />
             </div>
             <figcaption>
-              <h2>Le marathon du médoc</h2>
-              <p>Course - France - Nouvelle aquitaine</p>
+              <h2 tabindex="0">Le marathon du médoc</h2>
+              <p tabindex="0">Course - France - Nouvelle aquitaine</p>
             </figcaption>
           </figure>
         </a>
@@ -71,8 +71,8 @@
               <img src="./assets/images/home/articles/cognac.jpg" alt="Marathon de Cognac" />
             </div>
             <figcaption>
-              <h2>Le marathon de cognac</h2>
-              <p>Course - France - Nouvelle aquitaine</p>
+              <h2 tabindex="0">Le marathon de cognac</h2>
+              <p tabindex="0">Course - France - Nouvelle aquitaine</p>
             </figcaption>
           </figure>
         </a>
@@ -148,16 +148,16 @@
       </div>
     </section>
   </div>
-  <div id="callToAction">
+  <div id="callToAction" tabindex="0">
     <p>Pour une <strong>performance optimale</strong> confiez-nous :</p>
-    <a href="#">Votre préparation mentale</a>
-    <a href="#">L'organisation de votre prochaine course</a>
-    <a href="#">Un coatching personnalisé en nutrition</a>
+    <a href="#" tabindex="0">Votre préparation mentale</a>
+    <a href="#" tabindex="0">L'organisation de votre prochaine course</a>
+    <a href="#" tabindex="0">Un coatching personnalisé en nutrition</a>
   </div>
   <section class="accessButtons">
-    <button id="buttonIncrease">A+</button>
-    <button id="buttonDecrease">A-</button>
-    <button id="buttonDys">Dyslexique</button>
+    <button tabindex="0" id="buttonIncrease">A+</button>
+    <button tabindex="0" id="buttonDecrease">A-</button>
+    <button tabindex="0" id="buttonDys">Dyslexique</button>
   </section>
   <footer>
     <p tabindex="0">
