@@ -1,4 +1,4 @@
-ajout des tabindex="0" pour navigation clavier !! Intalle "chromeVox extension" !!
+Intalle "chromeVox extension" !!
 ajout aria-hidden="true" pour les trucs à ne pas lire en synthèse voc
 ajout aria-label="ce que c'est" pour expliquer les sections du site en voc
 fusion de tout les CSS yiiiikes

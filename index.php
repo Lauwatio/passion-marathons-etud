@@ -4,7 +4,7 @@
 <head>
   <title>Passion marathons</title>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="./assets/css/stylefinal.css" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <script src="https://kit.fontawesome.com/79fc45146d.js" crossorigin="anonymous"></script>
