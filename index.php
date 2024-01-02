@@ -154,6 +154,13 @@
     <a href="#">L'organisation de votre prochaine course</a>
     <a href="#">Un coatching personnalisé en nutrition</a>
   </div>
+  <section class="accessButtons">
+    <div class="accessButtons">
+      <button id="buttonIncrease">A+</button>
+      <button id="buttonDecrease">A-</button>
+      <button id="buttonDys">Dyslexique</button>
+    </div>
+  </section>
   <footer>
     <p tabindex="0">
       Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com
