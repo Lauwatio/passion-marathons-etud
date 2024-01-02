@@ -44,13 +44,14 @@
   <div id="kal"></div>
 
   <script src="./../assets/js/calculette.js"></script>
-</div>
+
   <?php
   $nbMac = isset($_GET['nbMac']) ? $_GET['nbMac'] : null;
   for ($i = 1; $i <= $nbMac; $i = $i + 1) {
     echo '<img src="./../assets/images/macarons/macaron.png" alt="Macaron">';
   }
   ?>
+  </div>
   <footer>
     <nav>
       <a href="./../pages/alimentation.html">
