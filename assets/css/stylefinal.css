@@ -353,7 +353,7 @@ h1 {
   font-size: 1.8rem;
   letter-spacing: 3.6px;
   text-transform: uppercase;
-  color: rgb(13, 164, 211);
+  color: #d3d3d3;
 }
 #onglets {
   display: flex;
@@ -385,10 +385,7 @@ article p {
   line-height: 24px;
   text-align: justify;
 }
-article img {
-  width: 50%;
-  text-align: center;
-}
+
 #onglets {
   background: url("./../images/technique/section-header.png") repeat-x 0 50%;
   text-align: center;
@@ -404,6 +401,7 @@ article img {
 }
 .imgAlim {
   margin-block: 35px;
+  width: 50%;
 }
   /* CALCULETTE */
 #calculettehtml {
