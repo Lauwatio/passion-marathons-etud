@@ -183,10 +183,11 @@ section {
   quotes: "\201C""\201D""\2018""\2019";
   font-style: italic;
 }
-.texte_paragraphe {
+#textealim {
   font-size: 1rem;
   line-height: 24px;
   text-align: justify;
+  text-align: left;
 }
 #temoignage img {
   width: 50%;
@@ -354,6 +355,7 @@ Mise en forme des accessButtons
 }
 #h2alim
 {
+  margin-top: 50px;
   text-align: left;
   color: #0ba3d1;
 }
