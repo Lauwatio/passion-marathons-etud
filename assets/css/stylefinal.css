@@ -183,12 +183,6 @@ section {
   quotes: "\201C""\201D""\2018""\2019";
   font-style: italic;
 }
-#textealim {
-  font-size: 1rem;
-  line-height: 24px;
-  text-align: justify;
-  text-align: left;
-}
 #temoignage img {
   width: 50%;
   height: auto;
@@ -350,8 +344,19 @@ Mise en forme des accessButtons
   font-family: "Open Dyslexic";
 }
 /*ALIMENTATION*/
+
 #alimentation {
   margin-top: 35px;
+}
+#textealim {
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: justify;
+  text-align: left;
+}
+#h1alim
+{
+  color: #0ba3d1;
 }
 #h2alim
 {
