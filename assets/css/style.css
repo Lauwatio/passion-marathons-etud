@@ -310,14 +310,36 @@ Mise en forme des accessButtons
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 */
-#accessButtons {
-  letter-spacing: 1.25px;
+.accessButtons {
   font-family: Lato;
   position: fixed;
   bottom: 20px;
-  right: 80px;
-  display: flex;
-  flex-direction: column;
+  right: 65px;
   padding: 5px;
   text-align: center;
+  background-color: #0ba3d1;
+  border-radius: 45px;
+  padding: 15px;
+}
+.accessButtons button,
+i {
+  font-size: 0.9rem;
+}
+.accessButtons button {
+  color: #0ba3d1;
+  padding: 10px;
+  border-radius: 45px;
+  background-color: white;
+  display: inline-block;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.accessButtons button:hover {
+  background-color: #0ba3d1;
+  color: white;
 }

@@ -155,11 +155,9 @@
     <a href="#">Un coatching personnalisé en nutrition</a>
   </div>
   <section class="accessButtons">
-    <div class="accessButtons">
-      <button id="buttonIncrease">A+</button>
-      <button id="buttonDecrease">A-</button>
-      <button id="buttonDys">Dyslexique</button>
-    </div>
+    <button id="buttonIncrease">A+</button>
+    <button id="buttonDecrease">A-</button>
+    <button id="buttonDys">Dyslexique</button>
   </section>
   <footer>
     <p tabindex="0">
