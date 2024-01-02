@@ -1,21 +1,31 @@
 document.addEventListener("DOMContentLoaded", function () {
   const buttonDys = document.getElementById("buttonDys");
   const buttonIncrease = document.getElementById("buttonIncrease");
+  const buttonDecrease = document.getElementById("buttonDecrease");
+  const texts = document.querySelector(".texts");
+  const errorMessage = document.querySelector(".errorMessage");
 
   buttonDys.addEventListener("click", function () {
     document.body.classList.toggle("dys");
   });
-  buttonIncrease.addEventListener("click", function () {
-    // Obtenez la taille de police actuelle (en pixels)
-    const currentSize = window.getComputedStyle(document.body).fontSize;
-
-    // Convertissez la taille actuelle en nombre
-    const currentSizeNumeric = parseFloat(currentSize);
-
-    // Augmentez la taille de 5 pixels (ajustez selon vos préférences)
-    const newSize = currentSizeNumeric + 5;
-
-    // Appliquez la nouvelle taille de police au corps du document
-    document.body.style.fontSize = newSize + "px";
+  buttonIncrease.addEventListener("click", () => {
+    let textSize = window.getComputedStyle(texts).fontSize;
+    textSize = parseInt(textSize);
+    errorMessage.textContent = "";
+    if (textSize < 50) {
+      texts.style.fontSize = textSize + 5 + "px";
+    } else {
+      errorMessage.textContent = "Vous êtes à la taille maximale";
+    }
+  });
+  buttonDecrease.addEventListener("click", () => {
+    let textSize = window.getComputedStyle(texts).fontSize;
+    textSize = parseInt(textSize);
+    errorMessage.textContent = "";
+    if (12 < textSize) {
+      texts.style.fontSize = textSize - 5 + "px";
+    } else {
+      errorMessage.textContent = "Vous êtes à la taille minimale";
+    }
   });
 });

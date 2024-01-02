@@ -15,27 +15,27 @@
   <div id="bloc_principal">
     <header>
       <img src="./assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons" />
-      <h1 tabindex="0">Aller au bout de soi-même</h1>
+      <h1 class="texts" tabindex="0">Aller au bout de soi-même</h1>
     </header>
     <nav>
-      <a tabindex="0" href="./index.php"><img src="./assets/images/menu/house.svg" alt="L'accueil" /> Accueil </a>
+      <a class="texts" tabindex="0" href="./index.php"><img src="./assets/images/menu/house.svg" alt="L'accueil" /> Accueil </a>
 
-      <a tabindex="0" href="./pages/marathons.php">
+      <a class="texts" tabindex="0" href="./pages/marathons.php">
         <img src="./assets/images/menu/dest.svg" alt="Les marathons dans le monde" />
         Marathons
       </a>
 
-      <a tabindex="0" href="./pages/alimentation.html">
+      <a class="texts" tabindex="0" href="./pages/alimentation.html">
         <img src="./assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon" />
         Conseils
       </a>
 
-      <a tabindex="0" href="#">
+      <a class="texts" tabindex="0" href="#">
         <img src="./assets/images/menu/tems.svg" alt="Témoignages de marathoniens" />
         Témoignages
       </a>
 
-      <a tabindex="0" href="./pages/auteurs.html">
+      <a class="texts" tabindex="0" href="./pages/auteurs.html">
         <img src="./assets/images/menu/nous.svg" alt="Equipe de Passion Marathons" />
         L'équipe
       </a>
@@ -44,14 +44,14 @@
     <div id="alaune">
       <img src="./assets/images/home/alaune/new-york.jpg" alt="Ligne d'arrivée du marathon de New York" />
       <div tabindex="0">
-        <p tabindex="0">By Greg / Juillet 2023</p>
-        <p tabindex="0">L'aventure d'une vie</p>
-        <a href="#" tabindex="0">Lire plus</a>
+        <p class="texts" tabindex="0">By Greg / Juillet 2023</p>
+        <p class="texts" tabindex="0">L'aventure d'une vie</p>
+        <a class="texts" href="#" tabindex="0">Lire plus</a>
       </div>
     </div>
     <section id="articles">
       <div tabindex="0" class="titre_section">
-        <h2 tabindex="0">Nos derniers articles</h2>
+        <h2 class="texts" tabindex="0">Nos derniers articles</h2>
       </div>
       <div>
         <a tabindex="0" href="#">
@@ -60,8 +60,8 @@
               <img src="./assets/images/home/articles/medoc.jpg" alt="Marathon du Médoc" />
             </div>
             <figcaption>
-              <h2 tabindex="0">Le marathon du médoc</h2>
-              <p tabindex="0">Course - France - Nouvelle aquitaine</p>
+              <h2 class="texts" tabindex="0">Le marathon du médoc</h2>
+              <p class="texts" tabindex="0">Course - France - Nouvelle aquitaine</p>
             </figcaption>
           </figure>
         </a>
@@ -71,8 +71,8 @@
               <img src="./assets/images/home/articles/cognac.jpg" alt="Marathon de Cognac" />
             </div>
             <figcaption>
-              <h2 tabindex="0">Le marathon de cognac</h2>
-              <p tabindex="0">Course - France - Nouvelle aquitaine</p>
+              <h2 class="texts" tabindex="0">Le marathon de cognac</h2>
+              <p class="texts" tabindex="0">Course - France - Nouvelle aquitaine</p>
             </figcaption>
           </figure>
         </a>
@@ -82,8 +82,8 @@
               <img src="./assets/images/home/articles/dietetique.jpg" alt="Préparation marathon" />
             </div>
             <figcaption>
-              <h2>Alimentation avant la course</h2>
-              <p>Conseils</p>
+              <h2 class="texts">Alimentation avant la course</h2>
+              <p class="texts">Conseils</p>
             </figcaption>
           </figure>
         </a>
@@ -91,14 +91,14 @@
     </section>
     <section id="temoignage">
       <div tabindex="0" class="titre_section">
-        <h2>Sur la ligne d'arrivée</h2>
+        <h2 class="texts">Sur la ligne d'arrivée</h2>
       </div>
       <div>
         <blockquote tabindex="0">
-          <em>Au départ : une adrénaline de ouf, au 32ème : un coup de barre
+          <em class="texts">Au départ : une adrénaline de ouf, au 32ème : un coup de barre
             XXL</em>
         </blockquote>
-        <p tabindex="0" class="texte_paragraphe" id="text">
+        <p class="texts" tabindex="0" class="texte_paragraphe" id="text">
           L’hymne américain retenti, le coup de canon part…la course est
           lancée. A moi New York mais avant il va falloir passer le Verazano
           Brigde. ça grimpe dur mais qu’est ce que c’est beau. Ensuite c’est
