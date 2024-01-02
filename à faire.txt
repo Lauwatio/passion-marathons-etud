@@ -1,7 +1,4 @@
 faire le js pour les changements de taille de police
 ajouter menu flottant
-redirection article conseil vers page conseil
-page marathons lien auteur du site
-modif placement
 
 !!!!!!!!! PENSER A MODIFIER L'URL DE CALCULATRICE.JS AVANT RENDU !!!!!!!!!!!!!!!
