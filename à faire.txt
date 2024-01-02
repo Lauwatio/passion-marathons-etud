@@ -3,7 +3,6 @@ ajout aria-label="ce que c'est" pour expliquer les sections du site en voc
 ajouter les boutons de taille de police et de police Open Dys
 faire le js pour les changements ci-dessus
 ajouter menu flottant
-images auteurs
 corriger le mode dys de la page alimentation pour le menu (calculette dépasse)
 
 !!!!!!!!! PENSER A MODIFIER L'URL DE CALCULATRICE.JS AVANT RENDU !!!!!!!!!!!!!!!
