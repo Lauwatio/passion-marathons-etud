@@ -13,7 +13,8 @@
 <body>
   <div id="bloc_principal">
     <header>
-      <img src="./../assets/images/bannierecalculatrice.png" alt="Passion Marathons - Agence spécialisées dans les marathons" />
+      <img src="./../assets/images/bannierecalculatrice.png"
+        alt="Passion Marathons - Agence spécialisées dans les marathons" />
     </header>
 
   </div>
