@@ -305,14 +305,17 @@ th:nth-child(3) {
   padding: 5px 10px;
 }
 /*
-  
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Mise en forme des accessButtons
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-  */
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mise en forme des accessButtons
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*/
+@font-face {
+  font-family: "Open Dyslexic";
+  src: local("Open Dyslexic"), url(./../fonts/OpenDys.otf);
+}
 .accessButtons {
-  font-family: Lato;
   position: fixed;
   bottom: 20px;
   right: 65px;
@@ -343,6 +346,9 @@ i {
 .accessButtons button:hover {
   background-color: #0ba3d1;
   color: white;
+}
+.dys {
+  font-family: "Open Dyslexic";
 }
 
 /*ALIMENTATION*/
@@ -398,34 +404,33 @@ article p {
   margin-block: 35px;
   width: 50%;
 }
-  /* CALCULETTE */
+/* CALCULETTE */
 #calculettehtml {
-    font-family: Oswald;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    letter-spacing: 3.6px;
-    font-weight: 400;
-    background: url(./../images/macarons/fond_bouge.jpg) top/cover;
-    animation: macarons 100s infinite linear;
-    /*filter: blur(8px);*/
-    background-size: auto 100%;
+  font-family: Oswald;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3.6px;
+  font-weight: 400;
+  background: url(./../images/macarons/fond_bouge.jpg) top/cover;
+  animation: macarons 100s infinite linear;
+  /*filter: blur(8px);*/
+  background-size: auto 100%;
+}
+@keyframes macarons {
+  0% {
+    background-position: 0 0;
   }
-  @keyframes macarons{
-    0%{
-      background-position: 0 0;
-    }
-    100%{
-      background-position: 11811px 0px;
-    }
+  100% {
+    background-position: 11811px 0px;
   }
-  #retoursconseils {
-    text-decoration: none;
-    color:azure;
-  }
-  #cadre
-{
+}
+#retoursconseils {
+  text-decoration: none;
+  color: azure;
+}
+#cadre {
   background-color: rgb(200, 232, 232);
   border-radius: 20px;
   display: inline-block;
@@ -434,10 +439,10 @@ article p {
   width: 500px;
 }
 #bloc_principalcalc {
-    margin: 0 auto;
-    display: flex;
-    text-decoration: none;
-  }
+  margin: 0 auto;
+  display: flex;
+  text-decoration: none;
+}
 
   #calculette {
     margin: 20px;
@@ -474,7 +479,7 @@ article p {
     background-color: white;
     border-radius: 10px;
   }
-  #macaronimg {
+  #macarons img {
     display: inline-block;
     width: 20%;
   }
@@ -490,29 +495,29 @@ article p {
 /* AUTEURS */
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 #auteurhtml {
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    color: rgb(140, 145, 155);
-    letter-spacing: 3.6px;
-    font-weight: 400;
-    height: 100%;
-    font-family: "Oswald", sans-serif;
-  }
-  .retourA {
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: black;
-    display: inline-block;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #auteurmain {
-    display: flex;
-  }
-  #laura,
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(140, 145, 155);
+  letter-spacing: 3.6px;
+  font-weight: 400;
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+}
+.retourA {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  display: inline-block;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+#auteurmain {
+  display: flex;
+}
+#laura,
 #quentin {
   height: 100vh;
   width: 50%;
@@ -592,13 +597,13 @@ article p {
   color: white;
 }
 #auteurbody {
-    height: 100%;
-  }
-  div:first-child > img {
-    width: 100%;
-    height: auto;
-  }
-  #bio > div,
+  height: 100%;
+}
+div:first-child > img {
+  width: 100%;
+  height: auto;
+}
+#bio > div,
 #illu > div {
   display: flex;
   flex-direction: column;
@@ -648,16 +653,15 @@ article p {
   background: url(./../images/auteurs/Agorthes\ 2\ colo.jpg) center/cover;
 }
 #home {
-    color: whitesmoke;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 5vh;
-    text-shadow: 0px 0 10px rgb(214, 176, 8);
-  }
-  #divhome {
-    position: fixed;
-    bottom: 5%;
-    right: 48%;
-    text-align: center;
-  }
-  
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 5vh;
+  text-shadow: 0px 0 10px rgb(214, 176, 8);
+}
+#divhome {
+  position: fixed;
+  bottom: 5%;
+  right: 48%;
+  text-align: center;
+}
