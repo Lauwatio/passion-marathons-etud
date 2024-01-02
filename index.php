@@ -149,7 +149,7 @@
     </section>
   </div>
   <div id="callToAction" tabindex="0">
-    <p>Pour une <strong>performance optimale</strong> confiez-nous :</p>
+    <p id="titreCTA">Pour une <strong id="strongCTA">performance optimale</strong> confiez-nous :</p>
     <a href="#" tabindex="0">Votre préparation mentale</a>
     <a href="#" tabindex="0">L'organisation de votre prochaine course</a>
     <a href="#" tabindex="0">Un coatching personnalisé en nutrition</a>

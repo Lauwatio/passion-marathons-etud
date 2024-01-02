@@ -9,7 +9,7 @@ html {
   font-size: 16px;
   color: rgb(140, 145, 155);
   letter-spacing: 3.6px;
-  font-weight: 400;
+  font-weight: 700;
 }
 /*
   
@@ -38,6 +38,7 @@ header img {
 header h1 {
   text-align: center;
   font-size: 1.05rem;
+  font-weight: 700;
 }
 #bloc_principal > nav {
   height: 50px;
@@ -281,7 +282,7 @@ th:nth-child(3) {
   padding: 5px;
   text-align: center;
 }
-#callToAction > p {
+#titreCTA {
   background-color: #0ba3d1;
   font-size: 0.95rem;
   color: white;
@@ -289,9 +290,11 @@ th:nth-child(3) {
   text-align: center;
   padding-left: 40px;
   padding-right: 40px;
+  font-weight: 100;
 }
-#callToAction > p > strong {
+#strongCTA {
   font-style: italic;
+  
 }
 
 #callToAction > a {
@@ -302,6 +305,7 @@ th:nth-child(3) {
   margin: 0.2rem;
   border-radius: 5px;
   padding: 5px 10px;
+  font-weight: 100;
 }
 /*
 
@@ -353,13 +357,7 @@ i {
 #alimentation {
   margin-top: 35px;
 }
-h1 {
-  font-family: Oswald;
-  font-size: 1.8rem;
-  letter-spacing: 3.6px;
-  text-transform: uppercase;
-  color: #d3d3d3;
-}
+
 #onglets {
   display: flex;
   flex-direction: row;
@@ -448,53 +446,53 @@ article p {
   text-decoration: none;
 }
 
-#calculette {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#calculette label {
-  padding: 10px;
-}
-#calculette input {
-  width: 4rem;
-  border-radius: 10px;
-  padding: 10px;
-  margin-right: 10px;
-}
-#calculette div {
-  display: flex;
-  width: 4rem;
-}
-#kal,
-#com {
-  padding: 10px;
-  color: rgb(0, 0, 0);
-}
-#btncalc {
-  padding: 10px;
-  font-family: Oswald;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 16px;
-  color: rgb(0, 0, 0);
-  letter-spacing: 3.6px;
-  font-weight: 400;
-  background-color: white;
-  border-radius: 10px;
-}
-#macarons img {
-  display: inline-block;
-}
-#retourcalc {
-  background-color: #222222;
-  padding: 10px;
-  width: fit-content;
-  border-radius: 10px;
-  text-align: center;
-  display: inline-block;
-}
+  #calculette {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #calculette label {
+    padding: 10px;
+  }
+  #calculette input {
+    width: 4rem;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  #calculette div {
+    display: flex;
+    width: 4rem;
+  }
+  #kal, #com {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+  #btncalc {
+    padding: 10px;
+    font-family: Oswald;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3.6px;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 10px;
+  }
+  #macaronimg{
+    display: inline-block;
+    width: 20%;
+  }
+  #retourcalc{
+    background-color:#222222;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+  }
 
 /* AUTEURS */
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
