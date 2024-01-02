@@ -157,7 +157,7 @@ section {
 #temoignage div:nth-child(2) {
   margin-top: 20px;
   text-transform: none;
-  font-family: lato;
+  font-family: "Lato";
   letter-spacing: normal;
 }
 #temoignage blockquote::before {
@@ -269,7 +269,7 @@ Mise en forme du CallToAction
 */
 #callToAction {
   letter-spacing: 1.25px;
-  font-family: Lato;
+  font-family: "Lato";
   position: fixed;
   top: 20px;
   right: 80px;
@@ -310,8 +310,11 @@ Mise en forme des accessButtons
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 */
+@font-face {
+  font-family: "Open Dyslexic";
+  src: local("Open Dyslexic"), url(./../fonts/OpenDys.otf);
+}
 .accessButtons {
-  font-family: Lato;
   position: fixed;
   bottom: 20px;
   right: 65px;
@@ -342,4 +345,7 @@ i {
 .accessButtons button:hover {
   background-color: #0ba3d1;
   color: white;
+}
+.dys {
+  font-family: "Open Dyslexic";
 }
