@@ -1,6 +1,4 @@
-ajout aria-hidden="true" pour les trucs à ne pas lire en synthèse voc
-ajout aria-label="ce que c'est" pour expliquer les sections du site en voc
-ajouter les boutons de taille de police et de police Open Dys
+ajouter les boutons de taille de police
 faire le js pour les changements ci-dessus
 ajouter menu flottant
 images auteurs
