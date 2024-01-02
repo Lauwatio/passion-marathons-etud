@@ -39,7 +39,7 @@
 			</a>
 
 		</nav>
-		<div  tarbindex="0" id="liste_marathons">
+		<div tarbindex="0" id="liste_marathons">
 			<h1 class="titre_page_secondaire" tabindex="0">Marathons 2024</h1>
 			<table>
 				<thead>
@@ -70,8 +70,14 @@
 						<?php } ?>
 				</tbody>
 			</table>
-		</div  tarbindex="0">
-	</div  tarbindex="0">
+		</div tarbindex="0">
+	</div tarbindex="0">
+	<section class="accessButtons">
+		<button tabindex="0" id="buttonIncrease">A+</button>
+		<button tabindex="0" id="buttonDecrease">A-</button>
+		<button tabindex="0" id="buttonDys">Dyslexique</button>
+	</section>
+	<script src="./../assets/js/accessButtons.js"></script>
 	<footer>
 		<p tabindex="0">Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com</p>
 		<a tabindex="0" href="#">Les auteurs du site </a>

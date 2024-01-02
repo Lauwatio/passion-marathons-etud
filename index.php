@@ -159,6 +159,7 @@
     <button tabindex="0" id="buttonDecrease">A-</button>
     <button tabindex="0" id="buttonDys">Dyslexique</button>
   </section>
+  <script src="./assets/js/accessButtons.js"></script>
   <footer>
     <p tabindex="0">
       Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com
@@ -166,7 +167,7 @@
     <a tabindex="0" href="./pages/auteurs.html">Les auteurs du site </a>
     <a tabindex="0" href="#bloc_principal">Haut de la page</a>
   </footer>
-  <script src="./assets/js/accessButtons.js"></script>
+
 </body>
 
 </html>

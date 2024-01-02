@@ -8,5 +8,6 @@ faire le js pour les changements ci-dessus
 ajouter éléments animés/intéractifs
 ajouter menu flottant
 images auteurs
+corriger le mode dys de la page alimentation pour le menu (calculette dépasse)
 
 !!!!!!!!! PENSER A MODIFIER L'URL DE CALCULATRICE.JS AVANT RENDU !!!!!!!!!!!!!!!
