@@ -35,15 +35,14 @@ body {
 
 #cadre
 {
-  background-color: azure;
-  opacity: 0.6;
+  background-color: rgb(200, 232, 232);
   border-radius: 20px;
   display: inline-block;
   padding-top: 5px;
   margin-bottom: 5px;
+  width: 500px;
 }
 #bloc_principal {
-  width: 1050px;
   margin: 0 auto;
   display: flex;
   text-decoration: none;
@@ -52,6 +51,7 @@ body {
 header img {
   width: 100%;
   height: auto;
+  display: inline-block;
 }
 header h1 {
   text-align: center;
