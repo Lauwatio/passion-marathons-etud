@@ -98,7 +98,7 @@
           <em>Au départ : une adrénaline de ouf, au 32ème : un coup de barre
             XXL</em>
         </blockquote>
-        <p tabindex="0" class="texte_paragraphe">
+        <p tabindex="0" class="texte_paragraphe" id="text">
           L’hymne américain retenti, le coup de canon part…la course est
           lancée. A moi New York mais avant il va falloir passer le Verazano
           Brigde. ça grimpe dur mais qu’est ce que c’est beau. Ensuite c’est
@@ -166,6 +166,7 @@
     <a tabindex="0" href="./pages/auteurs.html">Les auteurs du site </a>
     <a tabindex="0" href="#bloc_principal">Haut de la page</a>
   </footer>
+  <script src="./assets/js/accessButtons.js"></script>
 </body>
 
 </html>
