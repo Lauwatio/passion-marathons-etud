@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", function () {
     );
 
     const url =
-      "http://localhost/passion-marathons-etud/pages/calculette.php?nbMac=" +
+      "http://qlepage.alwaysdata.net/passion-marathons-etud/pages/calculette.php?nbMac=" +
       encodeURIComponent(nbMac);
     window.location.href = url;
   });
