@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
       let textSize = window.getComputedStyle(text).fontSize;
       textSize = parseInt(textSize);
       console.log("Current text size:", textSize);
-      if (textSize < 50) {
+      if (textSize < 25) {
         errorMessage.textContent = "";
-        text.style.fontSize = textSize + 5 + "px";
+        text.style.fontSize = textSize + 1 + "px";
       } else {
         errorMessage.textContent = "Taille maximale";
       }
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       textSize = parseInt(textSize);
       if (12 < textSize) {
         errorMessage.textContent = "";
-        text.style.fontSize = textSize - 5 + "px";
+        text.style.fontSize = textSize - 1 + "px";
       } else {
         errorMessage.textContent = "Taille minimale";
       }
