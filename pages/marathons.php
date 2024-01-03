@@ -4,7 +4,7 @@
 <head>
 	<title>Passion Marathons</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="./../assets/css/style.css" type="text/css">
+	<link rel="stylesheet" href="./../assets/css/stylefinal.css" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
