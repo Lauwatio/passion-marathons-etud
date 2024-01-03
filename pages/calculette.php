@@ -19,27 +19,27 @@
     </div>
 
     <div id="calculette">
-      <h2 id="consTitle" tabindex="0">Consommation en Kcal par minute</h2>
+      <h2 id="consTitle" class="texts" tabindex="0">Consommation en Kcal par minute</h2>
 
-      <label for="vit" tabindex="0">Vitesse de course :</label>
+      <label for="vit" class="texts" tabindex="0">Vitesse de course :</label>
       <div>
         <input type="text" id="vit" />
-        <p tabindex="0">km/h</p>
+        <p class="texts" tabindex="0">km/h</p>
       </div>
 
-      <label for="temps" tabindex="0">Temps de course :</label>
+      <label for="temps" class="texts" tabindex="0">Temps de course :</label>
       <div>
         <input type="text" id="temps" />
-        <p tabindex="0">min</p>
+        <p class="texts" tabindex="0">min</p>
       </div>
 
-      <label for="poids" tabindex="0">Poids :</label>
+      <label for="poids" class="texts" tabindex="0">Poids :</label>
       <div>
         <input type="text" id="poids" />
-        <p tabindex="0">kg</p>
+        <p class="texts" tabindex="0">kg</p>
       </div>
     </div>
-    <button id="btncalc" tabindex="0">Calculer</button>
+    <button id="btncalc" class="texts" tabindex="0">Calculer</button>
     <div id="kal"></div>
     <div id="com"></div>
     <script src="./../assets/js/calculette.js"></script>
@@ -53,7 +53,7 @@
   </div>
   <div>
     <nav id="retourcalc">
-      <a id="retoursconseils" href="./../pages/alimentation.html" tabindex="0">
+      <a id="retoursconseils" href="./../pages/alimentation.html" class="texts" tabindex="0">
         Retour aux Conseils
       </a>
     </nav>

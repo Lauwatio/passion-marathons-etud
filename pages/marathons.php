@@ -14,39 +14,39 @@
 	<div tarbindex="0" id="bloc_principal">
 		<header>
 			<img src="./../assets/images/banniere.png" alt="Passion Marathons - Agence spécialisées dans les marathons">
-			<h1 tabindex="0">Aller au bout de soi-même</h1>
+			<h1 class="texts" tabindex="0">Aller au bout de soi-même</h1>
 		</header>
 		<nav>
-			<a tabindex="0" href="./../index.php">
+			<a class="texts" tabindex="0" href="./../index.php">
 				<img src="./../assets/images/menu/house.svg" alt="L'accueil" />
 				Accueil
 			</a>
-			<a tabindex="0" href="#">
+			<a class="texts" tabindex="0" href="#">
 				<img src="./../assets/images/menu/dest.svg" alt="Les marathons dans le monde">
 				Marathons
 			</a>
-			<a tabindex="0" href="./alimentation.html">
+			<a class="texts" tabindex="0" href="./alimentation.html">
 				<img src="./../assets/images/menu/conseils.svg" alt="Conseils pour la préparation d'un marathon">
 				Conseils
 			</a>
-			<a tabindex="0" href="#">
+			<a class="texts" tabindex="0" href="#">
 				<img src="./../assets/images/menu/tems.svg" alt="Témoignages de marathoniens">
 				Témoignages
 			</a>
-			<a tabindex="0" href="./auteurs.html">
+			<a class="texts" tabindex="0" href="./auteurs.html">
 				<img src="./../assets/images/menu/nous.svg" alt="Equipe de Passion Marathons">
 				L'équipe
 			</a>
 
 		</nav>
 		<div tarbindex="0" id="liste_marathons">
-			<h1 class="titre_page_secondaire" tabindex="0">Marathons 2024</h1>
+			<h1 class="titre_page_secondaire" class="texts" tabindex="0">Marathons 2024</h1>
 			<table>
 				<thead>
 					<tr>
-						<th tabindex="0">Dates
-						<th tabindex="0">Pays
-						<th tabindex="0">Ville
+						<th class="texts" tabindex="0">Dates
+						<th class="texts" tabindex="0">Pays
+						<th class="texts" tabindex="0">Ville
 				</thead>
 				<tbody>
 					<?php
