@@ -74,6 +74,7 @@
 	</div tarbindex="0">
 	<section class="accessButtons">
 		<button tabindex="0" id="buttonDys">Dyslexique</button>
+		<div style="color: white;" class="errorMessage"></div>
 	</section>
 	<script src="./../assets/js/accessButtons.js"></script>
 	<footer>

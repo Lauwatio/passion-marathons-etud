@@ -98,7 +98,7 @@
           <em class="texts">Au départ : une adrénaline de ouf, au 32ème : un coup de barre
             XXL</em>
         </blockquote>
-        <p class="texts" tabindex="0" class="texte_paragraphe" id="text">
+        <p class="texts" tabindex="0">
           L’hymne américain retenti, le coup de canon part…la course est
           lancée. A moi New York mais avant il va falloir passer le Verazano
           Brigde. ça grimpe dur mais qu’est ce que c’est beau. Ensuite c’est
@@ -117,7 +117,7 @@
     </section>
     <section id="instagram">
       <div class="titre_section">
-        <h2 tabindex="0">Passion Marathons sur Instagram</h2>
+        <h2 class="texts" tabindex="0">Passion Marathons sur Instagram</h2>
       </div>
 
       <div>
@@ -142,31 +142,32 @@
 
       </div>
       <div>
-        <a tabindex="0" href="https://www.instagram.com">
+        <a class="texts" tabindex="0" href="https://www.instagram.com">
           <i class="fa-brands fa-instagram"></i> Rejoignez-nous sur Insta
         </a>
       </div>
     </section>
   </div>
   <div id="callToAction" tabindex="0">
-    <p id="titreCTA">Pour une <strong id="strongCTA">performance optimale</strong> confiez-nous :</p>
-    <a href="#" tabindex="0">Votre préparation mentale</a>
-    <a href="#" tabindex="0">L'organisation de votre prochaine course</a>
-    <a href="#" tabindex="0">Un coatching personnalisé en nutrition</a>
+    <p class="texts" id="titreCTA">Pour une <strong class="texts" id="strongCTA">performance optimale</strong> confiez-nous :</p>
+    <a class="texts" href="#" tabindex="0">Votre préparation mentale</a>
+    <a class="texts" href="#" tabindex="0">L'organisation de votre prochaine course</a>
+    <a class="texts" href="#" tabindex="0">Un coatching personnalisé en nutrition</a>
   </div>
   <section class="accessButtons">
 
     <button tabindex="0" id="buttonIncrease">A+</button>
     <button tabindex="0" id="buttonDecrease">A-</button>
     <button tabindex="0" id="buttonDys">Dyslexique</button>
+    <div style="color: white;" class="errorMessage"></div>
   </section>
   <script src="./assets/js/accessButtons.js"></script>
   <footer>
-    <p tabindex="0">
+    <p class="texts" tabindex="0">
       Copyright : Passion Marathons 2015/2023 - contac@passionmarathons.com
     </p>
-    <a tabindex="0" href="./pages/auteurs.html">Les auteurs du site </a>
-    <a tabindex="0" href="#bloc_principal">Haut de la page</a>
+    <a class="texts" tabindex="0" href="./pages/auteurs.html">Les auteurs du site </a>
+    <a class="texts" tabindex="0" href="#bloc_principal">Haut de la page</a>
   </footer>
 
 </body>

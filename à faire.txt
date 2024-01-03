@@ -1,4 +1,7 @@
 faire le js pour les changements de taille de police
 ajouter menu flottant
+mettre class="texts" sur tout les textes sur toutes les pages (sauf auteurs.html)
+réduire la taille de police max car 50 c'est trop mdrrr ça casse le site
+supprimer le console.log des btn access.js quand on en aura plus besoin
 
 !!!!!!!!! PENSER A MODIFIER L'URL DE CALCULATRICE.JS AVANT RENDU !!!!!!!!!!!!!!!
