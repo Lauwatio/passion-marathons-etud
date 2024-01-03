@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     texts.forEach(function (text) {
       let textSize = window.getComputedStyle(text).fontSize;
       textSize = parseInt(textSize);
-      console.log("Current text size:", textSize);
       if (textSize < 25) {
         errorMessage.textContent = "";
         text.style.fontSize = textSize + 1 + "px";
