@@ -116,11 +116,9 @@ header h1 {
 
 section {
   margin-top: 20px;
- 
 }
 /* Mise en forme de la section présentant les 3 derniers articles */
-#articles
-{
+#articles {
   margin-bottom: 30px;
 }
 #articles div:nth-child(2) {
@@ -291,7 +289,6 @@ th:nth-child(3) {
 }
 #strongCTA {
   font-style: italic;
-  
 }
 
 #callToAction > a {
@@ -358,13 +355,11 @@ Mise en forme des accessButtons
   text-align: justify;
   text-align: left;
 }
-#h1alim
-{
+#h1alim {
   color: #0ba3d1;
   font-size: 2rem;
 }
-#h2alim
-{
+#h2alim {
   margin-top: 50px;
   text-align: left;
   color: #0ba3d1;
@@ -457,53 +452,54 @@ article p {
   text-decoration: none;
 }
 
-  #calculette {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #calculette label {
-    padding: 10px;
-  }
-  #calculette input {
-    width: 4rem;
-    border-radius: 10px;
-    padding: 10px;
-    margin-right: 10px;
-  }
-  #calculette div {
-    display: flex;
-    width: 4rem;
-  }
-  #kal, #com {
-    padding: 10px;
-    color: rgb(0, 0, 0);
-  }
-  #btncalc {
-    padding: 10px;
-    font-family: Oswald;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    letter-spacing: 3.6px;
-    font-weight: 400;
-    background-color: white;
-    border-radius: 10px;
-  }
-  #macaronimg{
-    display: inline-block;
-    width: 20%;
-  }
-  #retourcalc{
-    background-color:#222222;
-    padding: 10px;
-    width: fit-content;
-    border-radius: 10px;
-    text-align: center;
-    display: inline-block;
-  }
+#calculette {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#calculette label {
+  padding: 10px;
+}
+#calculette input {
+  width: 4rem;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+#calculette div {
+  display: flex;
+  width: 4rem;
+}
+#kal,
+#com {
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+#btncalc {
+  padding: 10px;
+  font-family: Oswald;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3.6px;
+  font-weight: 400;
+  background-color: white;
+  border-radius: 10px;
+}
+#macaronimg {
+  display: inline-block;
+  width: 20%;
+}
+#retourcalc {
+  background-color: #222222;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+}
 
 /* AUTEURS */
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
@@ -630,9 +626,8 @@ div:first-child > img {
   font-size: 5vh;
   flex-direction: column;
 }
-#bio
-{
-    background-color: whitesmoke;
+#bio {
+  background-color: whitesmoke;
 }
 #illu1,
 #illu2,
