@@ -116,9 +116,13 @@ header h1 {
 
 section {
   margin-top: 20px;
+ 
 }
 /* Mise en forme de la section présentant les 3 derniers articles */
-
+#articles
+{
+  margin-bottom: 30px;
+}
 #articles div:nth-child(2) {
   display: flex;
   justify-content: space-around;
@@ -410,7 +414,7 @@ article p {
   margin-top: 35px;
 }
 .imgAlim {
-  margin-block: 35px;
+  margin-top: 20px;
   width: 50%;
 }
 /* CALCULETTE */
@@ -573,7 +577,6 @@ article p {
   text-transform: lowercase;
 }
 #laura a {
-  padding-left: 10px;
   font-size: 7vh;
 }
 #laura a,
