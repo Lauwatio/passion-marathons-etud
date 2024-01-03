@@ -30,6 +30,12 @@ window.addEventListener("DOMContentLoaded", function () {
   function nombreMac(a) {
     let n = a / 100;
     n = Math.floor(n);
+    localStorage.setItem(
+      "affichageMacaron",
+      JSON.stringify({
+        nbMacaron: n,
+      })
+    );
     return n;
   }
 
@@ -62,7 +68,12 @@ window.addEventListener("DOMContentLoaded", function () {
   }
   const dernierCom = localStorage.getItem("dernierCom");
   if (dernierCom) {
-    const { message } = JSON.parse(dernierCom);
-    com.innerHTML = `${message} Voici l'équivalent brulé en macarons :`;
+    const { message, nbMacaron } = JSON.parse(dernierCom);
+    com.innerHTML = `${message}`;
+  }
+  const affichageMacaron = localStorage.getItem("affichageMacaron");
+  if (affichageMacaron) {
+    const { nbMacaron } = JSON.parse(affichageMacaron);
+    com.innerHTML = `Cela équivaut à ${nbMacaron} macarons !`;
   }
 });
